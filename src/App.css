@@ -2,3 +2,31 @@
   max-width: 1280px;
   margin: 0 auto;
 }
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.CountryList {
+  width: 30%;
+  border: 1px solid black;
+  height: 90vh;
+  padding-left: 10px;
+  overflow: auto;
+}
+
+.CountryItem {
+  list-style: none;
+  margin: 5px;
+}
+
+.CountryItem:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.CountryInfo {
+  width: 68%;
+  border: 1px solid black;
+}
